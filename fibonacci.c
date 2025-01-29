@@ -16,7 +16,6 @@ int main()
     int n;
     printf("enter number");
     scanf("%d",&n);
-    fact(n);
     for(int i=0;i<=n;i++)
     printf("%d",fact(i));
     return 0;

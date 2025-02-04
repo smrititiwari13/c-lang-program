@@ -4,9 +4,10 @@
 int main()
 {
     int n,k;
+   
     scanf("%d",&n);
     scanf("%d",&k);
-   int a= n&(1<<k);
+   int a= 1&(n>>k);
     if(a==1)
     printf("bit is set");
     else
